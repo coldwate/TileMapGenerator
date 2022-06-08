@@ -1,0 +1,41 @@
+<html>
+	<head>TileMapGenerator v 15.04.2022.0
+		<title>TMG v 15.04.2022.0</title>
+		<!--script type="text/javascript" src="js/eval.js"></script>-->
+		<script type="text/javascript" src="js/TileMapGen.js"></script>
+	</head>
+	<body bgcolor="black">
+		<table>
+			<td>
+				<canvas id="cnv" name="cnv" height="480" width="600" onclick="cnvclickf()"></canvas>
+			</td>
+			<td>
+			<table>
+			<td>
+				<font color="silver">
+					Color_
+				
+				<input type="text" id="color" name="color" value="FFFFFF"/>
+				<br>
+					Matrix_
+				</font>
+				<input type="text" id="im" name="im" value=""/>
+				
+
+			</td>
+			<tr/>
+			<td>
+				Data: <br>
+				<textarea id="infotextarea" name="infotextarea" placeholder="UserData..." cols="30" rows="20">
+				</textarea>
+				<br>
+				<input type="button" id="grafb" name="grafb" value="Graphics" onclick="grafbclf()"/>
+				<br>
+				<input type="button" id="re" name="re" value="Reload" onclick="reclf()"/>
+			</td>
+			</table>
+		</td>
+		</table>
+		
+	</body>
+</html>
